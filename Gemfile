@@ -4,6 +4,8 @@ ruby '2.2.0'
 
 gem 'rails', '4.2.0'
 
+gem 'test-unit'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
